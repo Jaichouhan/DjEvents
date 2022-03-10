@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Djinj-Event</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" />
+    <!-- W3school icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top_navbar">
+      <div class="container">
+        <div class="top_navbar_flex">
+           <div class="">
+           <a href=""><i class="fa fa-facebook-f top_navbar_flex_i"></i></a> 
+           <a href=""><i class="fa fa-google-plus top_navbar_flex_i"></i></a> 
+           <a href=""><i class="fa fa-twitter top_navbar_flex_i"></i></a> 
+           <a href=""><i class="fa fa-linkedin top_navbar_flex_i"></i></a> 
+           </div>
+           <div class="top_navbar_div">
+             <a href="./login.html">
+              <i class="fa fa-user top_navbar_div_i"></i> login or Register
+             </a>
+             <i class="fa fa-search top_navbar_div_i_border"></i>
+           </div>
+        </div>
+      </div>
+    </div>
+    <section class="hero-section">
+      <div class="home_page_bg">
+        <!-- header start -->
+        <div class="navbar_sticky">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container navbar-Sapce">
+              <a class="navbar-brand header_heading" href="index.html"
+                >Djinj-Event</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 Navbar_padding">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=""
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Allevent.html">All Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html"> Contact us</a>
+                  </li>
+
+                  <li>
+                    <button
+                      class="btn-style theme-btn-1 btn_hover_effect"
+                      type="button"
+                    >
+                      <a href="./login.html" class="eff-1"
+                        ><i class="fa fa-plus"></i> ADD LISTING</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- header end -->
+        <div class="container">
+          <div class="home_page_all_center">
+            <h1 class="home_page_h1">FIND EVENT YOU LIKE</h1>
+            <p class="home_page_p">
+              Awesome event, conference & fest around you
+            </p>
+            <button
+              class="btn-style theme-btn-1 btn_hover_effect"
+              type="button"
+            >
+              <a href="./contactus.html" class="eff-1"> All Events</a>
+            </button>
+            <!-- <div>
+              <form >
+                <div  class="home_page_form">
+                <div class="home_page_form_flex">
+                  <label for="fname">I am looking for</label>
+                  <div class="home_page_form_flex_position">
+                  <input type="email" placeholder="Event Name" class="home_page_form_flex_input"> <i class="fa fa-search"></i></div>
+                 </div>
+                 <div class="home_page_form_flex">
+                  <label for="fname">Location</label>
+                  <div class="home_page_form_flex_position">
+                  <input type="text" placeholder="Search here...." class="home_page_form_flex_input"> <i class="fa fa-map-marker"></i></div>
+                 </div>
+                 <div class="home_page_form_flex">
+                  <label for="fname">Email</label>
+                  <input type="email" placeholder="Enter your email" class="">
+                 </div>
+                 <div class="home_page_form_btn_div">
+                   <button type="button" class="home_page_form_btn_div_btn">Search</button>
+                 </div>
+                </div>
+              </form>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="spape-design"></div>
+    </section>
+
+    <div class="second_section_bg">
+      <div class="container">
+        <div class="second_section_center">
+          <button class="second_section_center_btn">STEP1</button>
+          <span class="second_section_center_span">-</span>
+          <button class="second_section_center_btn">STEP2</button>
+        </div>
+        <div class="second_section_h1_bg">
+          <h1 class="second_section_h1">Choose City</h1>
+        </div>
+        <div class="">
+          <div class="row SlickSlider">
+            <div class="col-lg-3" id="showdiv">
+              <div class="second_section_div_color">
+                <div class="second_section_div_color_img">
+                  <img src="./images/accra.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Logos</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3" id="showdiv">
+              <div class="second_section_div_color">
+                <div class="second_section_div_color_img">
+                  <img src="./images/accraa.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Abuja</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3" id="showdiv">
+              <div class="second_section_div_color">
+                <div class="second_section_div_color_img">
+                  <img src="./images/dubai.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Accra</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3" id="showdiv">
+              <div class="second_section_div_color">
+                <div class="second_section_div_color_img">
+                  <img src="./images/cape-town.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Cape Town</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="second_section_h1_bg">
+          <h1 class="second_section_h1">Choose Venue</h1>
+        </div>
+        <div class="">
+          <div class="row SlickSlider">
+            <div class="col-lg-3">
+              <div
+                class="second_section_div_color second_section_div_color_border"
+              >
+                <div class="second_section_div_color_img">
+                  <img src="./images/accra.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Beach</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div
+                class="second_section_div_color second_section_div_color_border"
+              >
+                <div class="second_section_div_color_img">
+                  <img src="./images/accraa.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Live music</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div
+                class="second_section_div_color second_section_div_color_border"
+              >
+                <div class="second_section_div_color_img">
+                  <img src="./images/dubai.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Concerts/Comedies</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div
+                class="second_section_div_color second_section_div_color_border"
+              >
+                <div class="second_section_div_color_img">
+                  <img src="./images/cape-town.png" alt="img" />
+                </div>
+                <h6 class="second_section_div_h6">Restaurants</h6>
+                <p class="second_section_div_p">
+                  The customers can view a list of restaurants near their
+                  current location.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second_section_bg_bgimg">
+        <img src="./images/stars.png" alt="img" />
+      </div>
+      <div class="second_section_bg_bgimg1">
+        <img src="./images/shape-kon.png" alt="img" />
+      </div>
+      <div class="second_section_bg_bgimg2">
+        <img src="./images/03.png" alt="img" />
+      </div>
+    </div>
+
+    <div class="third_section_bg">
+      <div class="container">
+        <div class="third_section_h1_position">
+          <h1 class="third_section_h1">
+            Trending By <span class="fourth_section_h1_span">Cities</span>
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="third_section_col_position">
+              <img src="./images/lagos.png" alt="img" />
+              <div class="third_section_col_position_btn">
+                <button type="button">Logos</button>
+              </div>
+              <div class="third_section_col_position_heading">
+                <h3>Lagos City the design day</h3>
+                <p>23 jan 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="third_section_col_position">
+              <img src="./images/abuja.png" alt="img" />
+              <div
+                class="third_section_col_position_btn third_section_col_position_btn_color"
+              >
+                <button type="button">Abuja</button>
+              </div>
+              <div class="third_section_col_position_heading">
+                <h3>Lagos City the design day</h3>
+                <p>23 jan 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="third_section_col_position">
+              <img src="./images/logos22.png" alt="img" />
+              <div
+                class="third_section_col_position_btn third_section_col_position_btn_color1"
+              >
+                <button type="button">Logos</button>
+              </div>
+              <div class="third_section_col_position_heading">
+                <h3>Lagos City the design day</h3>
+                <p>23 jan 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourth_section_bg">
+      <div class="container">
+        <div class="fourth_section_h1_position">
+          <h1 class="fourth_section_h1">
+            Featured <span class="fourth_section_h1_span">Events</span>
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="fourth_section_set_color">
+              <div class="fourth_section_col_position">
+                <div class="fourth_section_col_position_imghover">
+                  <img src="./images/event-.png" alt="img" />
+                </div>
+                <div class="fourth_section_col_position_btn">
+                  <button type="button">Featured</button>
+                </div>
+                <div class="fourth_section_col_position_i">
+                  <i class="fa fa-heart-o"></i>
+                </div>
+              </div>
+              <div class="fourth_section_set_flex">
+                <p class="fourth_section_set_p">09 sep</p>
+                <div class="fourth_section_set_size">
+                  <h4 class="fourth_section_set_size_h4">Dublin Tech Summit</h4>
+                  <p class="fourth_section_set_size_p">
+                    <i class="fa fa-map-marker"></i> Barcelona, Spain
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="fourth_section_set_color">
+              <div class="fourth_section_col_position">
+                <div class="fourth_section_col_position_imghover">
+                  <img src="./images/event-1.png" alt="img" />
+                </div>
+                <div class="fourth_section_col_position_btn">
+                  <button
+                    type="button"
+                    class="fourth_section_col_position_btn1"
+                  >
+                    Night Party
+                  </button>
+                </div>
+                <div class="fourth_section_col_position_i">
+                  <i class="fa fa-heart-o"></i>
+                </div>
+              </div>
+              <div class="fourth_section_set_flex">
+                <p class="fourth_section_set_p">09 sep</p>
+                <div class="fourth_section_set_size">
+                  <h4 class="fourth_section_set_size_h4">Dublin Tech Summit</h4>
+                  <p class="fourth_section_set_size_p">
+                    <i class="fa fa-map-marker"></i> Barcelona, Spain
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="fourth_section_set_color">
+              <div class="fourth_section_col_position">
+                <div class="fourth_section_col_position_imghover">
+                  <img src="./images/event-2.png" alt="img" />
+                </div>
+                <div class="fourth_section_col_position_btn">
+                  <button
+                    type="button"
+                    class="fourth_section_col_position_btn2"
+                  >
+                    Featured
+                  </button>
+                </div>
+                <div class="fourth_section_col_position_i">
+                  <i class="fa fa-heart-o"></i>
+                </div>
+              </div>
+              <div class="fourth_section_set_flex">
+                <p class="fourth_section_set_p">09 sep</p>
+                <div class="fourth_section_set_size">
+                  <h4 class="fourth_section_set_size_h4">Dublin Tech Summit</h4>
+                  <p class="fourth_section_set_size_p">
+                    <i class="fa fa-map-marker"></i> Barcelona, Spain
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fourth_section_bg_bgimg">
+        <img src="./images/lines-shape.png" alt="" />
+      </div>
+      <div class="fourth_section_bg_bgimg1">
+        <img src="./images/shape-03.png" alt="" />
+      </div>
+    </div>
+
+    <div class="section_five_bg">
+      <div class="container">
+        <div class="section_five_padding">
+          <!-- <img src="./images/testi-01.png" alt="img" class="section_five_img" />
+
+          <p class="section_five_p">
+            Curabitur elementum urna augue, eu porta purus gravida in. Cras
+            consectetur, lorem a cursus vestibulum, ligula purus iaculis nulla,
+            in dignissim risus turpis id justo. Sed eleifend ante et ligula
+            eleifend ultricies.
+          </p>
+          <div class="section_five_selection_element">
+            <h3>David <span>Miller</span></h3>
+            <p>Marketing Envato Pty Ltd.</p>
+          </div> -->
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators" data-bs-interval="1000">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+                <img src="./images/user-slide.png" alt="img" />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="me-4 ms-4"
+              >
+                <img src="./images/user-slide.png" alt="img" />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              >
+                <img src="./images/user-slide.png" alt="img" />
+              </button>
+            </div>
+            <div class="carousel-inner" data-bs-interval="1000">
+              <div class="carousel-item active">
+                <img
+                  src="./images/testi-01.png"
+                  alt="img"
+                  class="section_five_img"
+                />
+
+                <p class="section_five_p">
+                  Curabitur elementum urna augue, eu porta purus gravida in.
+                  Cras consectetur, lorem a cursus vestibulum, ligula purus
+                  iaculis nulla, in dignissim risus turpis id justo. Sed
+                  eleifend ante et ligula eleifend ultricies.
+                </p>
+                <div class="section_five_selection_element">
+                  <h3>David <span>Miller</span></h3>
+                  <p>Marketing Envato Pty Ltd.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <img
+                  src="./images/testi-01.png"
+                  alt="img"
+                  class="section_five_img"
+                />
+
+                <p class="section_five_p">
+                  Curabitur elementum urna augue, eu porta purus gravida in.
+                  Cras consectetur, lorem a cursus vestibulum, ligula purus
+                  iaculis nulla, in dignissim risus turpis id justo. Sed
+                  eleifend ante et ligula eleifend ultricies.
+                </p>
+                <div class="section_five_selection_element">
+                  <h3>David <span>Miller</span></h3>
+                  <p>Marketing Envato Pty Ltd.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <img
+                  src="./images/testi-01.png"
+                  alt="img"
+                  class="section_five_img"
+                />
+
+                <p class="section_five_p">
+                  Curabitur elementum urna augue, eu porta purus gravida in.
+                  Cras consectetur, lorem a cursus vestibulum, ligula purus
+                  iaculis nulla, in dignissim risus turpis id justo. Sed
+                  eleifend ante et ligula eleifend ultricies.
+                </p>
+                <div class="section_five_selection_element">
+                  <h3>David <span>Miller</span></h3>
+                  <p>Marketing Envato Pty Ltd.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_five_bg_bgimg">
+        <img src="./images/shape-03.png" alt="img" />
+      </div>
+      <div class="section_five_bg_bgimg1">
+        <img src="./images/stars.png" alt="img" />
+      </div>
+      <div class="section_five_bg_bgimg2">
+        <img src="./images/shape-kon.png" alt="img" />
+      </div>
+      <div class="section_five_bg_bgimg3">
+        <img src="./images/03.png" alt="img" />
+      </div>
+    </div>
+
+    <div class="section_six_bg">
+      <div class="container">
+        <div class="section_six_bg_relat">
+          <h2 class="section_six_h2">
+            Latest <span class="section_six_h2_span">News</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="section_six_position">
+              <img src="./images/blog-02.png" alt="img" />
+              <button class="section_six_position_btn">Event</button>
+            </div>
+            <div class="section_six_bg_color">
+              <h3 class="section_six_bg_color_h3">Best Event Ticket Deals</h3>
+              <p class="section_six_bg_color_p">
+                Lorem ipsum dolor sit amet, voluptua iracundia disputationi an
+                pri, his utinam principes dignissim ad. Ne nec dolore oblique
+                nusquam, cu luptatum.
+              </p>
+              <div class="section_six_bg_flex">
+                <p class="section_six_bg_flex_p">
+                  <i class="fa fa-calendar"></i> 23 Nov 2021
+                </p>
+                <p class="section_six_bg_flex_p">
+                  <i class="fa fa-comment-o"></i> 23 Nov 2021
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="section_six_position">
+              <img src="./images/blog-01.png" alt="img" />
+              <button class="section_six_position_btn">Event</button>
+            </div>
+            <div class="section_six_bg_color">
+              <h3 class="section_six_bg_color_h3">Best Event Ticket Deals</h3>
+              <p class="section_six_bg_color_p">
+                Lorem ipsum dolor sit amet, voluptua iracundia disputationi an
+                pri, his utinam principes dignissim ad. Ne nec dolore oblique
+                nusquam, cu luptatum.
+              </p>
+              <div class="section_six_bg_flex">
+                <p class="section_six_bg_flex_p">
+                  <i class="fa fa-calendar"></i> 23 Nov 2021
+                </p>
+                <p class="section_six_bg_flex_p">
+                  <i class="fa fa-comment-o"></i> 23 Nov 2021
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer start -->
+    <div class="footer_bg">
+      <div class="container">
+        <h2 class="footer_bg_h2">Djinj-Event</h2>
+        <ul class="footer_bg_ul">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Venue</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <div class="footer_bg_div">
+          <ul class="footer_bg_div_ul">
+            <li>
+              <a href=""><i class="fa fa-facebook-f Section_six_i"></i></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa fa-twitter Section_six_i" id="hover_effect"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa fa-instagram Section_six_i" id="hover_effect1"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i
+                  class="fa fa-youtube-play Section_six_i"
+                  id="hover_effect2"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <p class="footer_bg_p">
+          2022 Copyright Djinj-Event.All Rights Reserved
+        </p>
+      </div>
+    </div>
+    <!-- Footer end -->
+
+    <!-- bootstrap js cdn link -->
+    <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
